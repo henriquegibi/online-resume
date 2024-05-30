@@ -7,12 +7,7 @@
     border: nome;
 }
 
-#toggle1
-{
-    display: none;
-}
-
-#toggle2
+#toggle1, #toggle2, #toggle3, #toggle4
 {
     display: none;
 }
@@ -23,18 +18,13 @@ body
     color: #333;
 }
 
-a:link,
-a:active,
-a:visited,
-button:link,
-button:active,
-button:visited
+a:link, a:active, a:visited, button.botao:link, button.botao:active, button.botao:visited
 {
     color: #315e8a;
     text-decoration: none;
 }
 
-a:hover
+a:hover, button.botao:hover
 {
     text-decoration: underline;
 }
@@ -53,85 +43,23 @@ a:hover
     float: left;
 }
 
-.col1
-{
-    width: 60px;
-}
+.col1  {    width: 60px;    }
+.col2  {    width: 140px;   }
+.col3  {    width: 220px;   }
+.col4  {    width: 300px;   }
+.col5  {    width: 380px;   }
+.col6  {    width: 460px;   }
+.col7  {    width: 540px;   }
+.col8  {    width: 620px;   }
+.col9  {    width: 700px;   }
+.col10 {    width: 780px;   }
+.col11 {    width: 860px;   }
+.col12 {    width: 940px;   }
 
-.col2
-{
-    width: 140px;
-}
-
-.col3
-{
-    width: 220px;
-}
-
-.col4
-{
-    width: 300px;
-}
-
-.col5
-{
-    width: 380px;
-}
-
-.col6
-{
-    width: 460px;
-}
-
-.col7
-{
-    width: 540px;
-}
-
-.col8
-{
-    width: 620px;
-}
-
-.col9
-{
-    width: 700px;
-}
-
-.col10
-{
-    width: 780px;
-}
-
-.col11
-{
-    width: 860px;
-}
-
-.col12
-{
-    width: 940px;
-}
-
-.sem-padding
-{
-    padding: 0 !important;
-}
-
-.sem-margin
-{
-    margin: 0 !important;
-}
-
-.next-li
-{
-    padding-bottom: 5px;
-}
-
-.marcador-1
-{
-    list-style-type: square;
-}
+.sem-padding {    padding: 0 !important;    }
+.sem-margin  {    margin: 0 !important;     }
+.next-li     {    padding-bottom: 5px;      }
+.marcador-1  {    list-style-type: square;  }
 
 .marcador-2
 {
@@ -139,15 +67,8 @@ a:hover
     margin-left: 30px;
 }
 
-ul li
-{
-    margin-bottom: 5px;
-}
-
-p
-{
-    text-align: justify;
-}
+ul li  {    margin-bottom: 5px;    }
+p      {    text-align: justify;   }
 
 img
 {
@@ -155,8 +76,7 @@ img
     height: auto;
 }
 
-h1,
-p.disposicao
+h1, p.disposicao
 {
     font-weight: 300, bold;
     font-size: larger;
@@ -171,18 +91,13 @@ h2
     margin: 15px 0 10px 0;
 }
 
-h3,
-h4,
-h5,
-h6
+h3, h4, h5, h6
 {
     font-weight: 500;
     margin: 10px 0 5px 0;
 }
 
-a.botao,
-input.botao,
-button.botao
+a.botao, input.botao, button.botao
 {
     background: #1f3c58;
     padding: 5px 10px;
@@ -194,9 +109,7 @@ button.botao
     border: nome;
 }
 
-a.botao:hover,
-input.botao:hover,
-button:hover
+a.botao:hover, input.botao:hover, button:hover
 {
     background: #315e8a;
     text-decoration: none;
@@ -221,9 +134,9 @@ button:hover
 
 .topo
 {
-    font-size: xx-large;
+    font-size:xx-large;
     font-weight: 700;
-    color: white;
+    color:  white;
     text-align: center;
 }
 
@@ -238,7 +151,6 @@ button:hover
     display: block;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 .img-course
@@ -248,7 +160,6 @@ button:hover
     display: block;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 .footer
@@ -258,28 +169,4 @@ button:hover
     padding: 20px 0;
     text-align: center;
     font-weight: 100;
-}
-
-#privacy-notice
-{
-    background-color: #f2f2f2;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    padding: 10px;
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    font-size: 14px;
-    color: #333;
-}
-
-#close-btn
-{
-    background: transparent;
-    border: none;
-    color: #333;
-    font-weight: bold;
-    float: right;
-    font-size: 18px;
-    cursor: pointer;
 }
