@@ -162,6 +162,16 @@ a.botao:hover, input.botao:hover, button:hover
     margin-right: auto;
 }
 
+.downloadPdf
+{
+    text-align: right;
+}
+
+.img-pdf
+{
+    max-height: 100px;
+}
+
 .footer
 {
     background: #1f3c58;
