@@ -85,6 +85,15 @@ h1, p.disposicao
     text-align: center;
 }
 
+h1.outros
+{
+    font-weight: 300, bold;
+    font-size: larger;
+    font-family: 'Roboto', sans-serif, !important;
+    color: #ffffff;
+    text-align: center;
+}
+
 h2
 {
     font-weight: 500;
