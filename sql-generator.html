@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Data Engineer which is able to propose Cloud Native Solution using AWS features." />
+    <title>SQL Generator | henriquegibi.click</title>
+    <link rel="icon" type="image/x-icon" href="img\favicon.png">
+    <link rel="stylesheet" type="text/css" href="css\normalize.css">
+    <link rel="stylesheet" type="text/css" href="css\style.css">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5BGQCBH12Y"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-5BGQCBH12Y');
+    </script>
+</head>
+
+</body>
+    <div class="header">
+        <div class="linha">
+            <header>
+                <div class="coluna col12">
+                    <h1 class="outros">SQL Generator | henriquegibi.click</h1>
+                </div>
+            </header>
+        </div>
+    </div>
+    <div class="background-beje">
+        <div class="linha">
+            <section>
+                <div class="coluna col2">
+                    <br><img src="img\sql.png" alt="SQL" class="img-icone">
+                </div>
+                <div class="coluna col10">
+                    <label for="user-input">Please, insert you command in natural language:</label><br>
+                    <textarea id="user-input" rows="6" cols="90"></textarea>
+                    <br>
+                    <button id="generate-sql-btn">Generate SQL</button>
+                </div>
+            </section>
+        </div>
+    </div>
+    <div class="background">
+        <div class="linha">
+            <div class="coluna col12">
+                <div id="sql-output"></div>
+                <button id="copy-btn" style="display:none;">Copy to Clipboard</button>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="linha">
+            <footer>
+                <div class="coluna col12">
+                    <span>&copy; HenriqueGibi.click | <a href="termosdeuso.html">Termos de Uso</a> e <a
+                            href="politicadeprivacidade.html">Política de Privacidade</a></span>
+                </div>
+            </footer>
+        </div>
+    </div>
+<script src="js\sql-app.js"></script>
+</body>
+
+</html>
